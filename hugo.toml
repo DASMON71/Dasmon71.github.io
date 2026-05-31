@@ -1,0 +1,23 @@
+baseURL = 'https://Dasmon71.github.io/'
+languageCode = 'id'
+title = 'Catatan & Portofolio Syahid'
+theme = "PaperMod"
+
+[params]
+    profileMode.enabled = true
+    profileMode.title = "Halo, Saya Syahid 👋"
+    profileMode.subtitle = "Admin Manajemen | Tech Enthusiast | Content Creator"
+    
+    [[params.profileMode.buttons]]
+        name = "📝 Baca Blog"
+        url = "/posts/"
+    [[params.profileMode.buttons]]
+        name = "💼 LinkedIn"
+        url = "https://linkedin.com/in/username-anda" 
+
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/username-anda"
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/Dasmon71" # <--- Sudah diganti ke username Anda
